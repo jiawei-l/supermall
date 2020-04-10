@@ -8,6 +8,7 @@
                 <SwiperItem v-for="item in banner">
                     <a :href="item.link">
                         <img :src="item.image" alt="">
+<!--                        <img v-lazy="item.image" alt="">   图片懒加载-->
                     </a>
                 </SwiperItem>
             </Swiper>

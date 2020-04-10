@@ -11,3 +11,6 @@
 .clear-fix {
     zoom: 1;
 }
+a{
+    text-decoration: none;
+}
